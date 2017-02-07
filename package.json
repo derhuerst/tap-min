@@ -1,8 +1,8 @@
 {
   "name": "tap-min",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Minimal TAP output formatter.",
-  "bin": "bin/tap-min",
+  "bin": {"tap-min": "bin/tap-min"},
   "files": ["index.js", "bin/tap-min"],
   "scripts": {
     "test": "npm run test:ok && npm run test:not-ok && npm run test:empty",
