@@ -3,7 +3,7 @@
 const PassThrough = require('readable-stream/passthrough')
 const duplexer = require('duplexer3')
 const hirestime = require('hirestime')
-const parser = require('tap-parser')
+const Parser = require('tap-parser')
 const ms = require('pretty-ms')
 const chalk = require('chalk')
 const util = require('util')
@@ -23,7 +23,7 @@ const reporter = () => {
     }
   }
 
-  const input = parser(onResults)
+  const input = new Parser(onResults)
   const output = new PassThrough()
   const result = duplexer(input, output)
 
