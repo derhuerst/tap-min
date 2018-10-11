@@ -33,11 +33,21 @@ const reporter = () => {
     output.write('\n' + chalk.white(assert.name) + '\n')
     if (assert.diag) {
       const d = assert.diag
-      output.write(chalk.gray(
-        `\toperator: ${d.operator}\n` +
-        `\texpected: ${util.inspect(d.expected)}\n` +
-        `\tactual:   ${util.inspect(d.actual)}\n`
-      ))
+      output.write(
+        chalk.white(
+          `\tat:       ${util.inspect(d.at)}\n` +
+          `\toperator: ${d.operator}\n`
+        ) +
+        chalk.green(
+          `\texpected: ${util.inspect(d.expected)}\n`
+        ) +
+        chalk.red(
+          `\tactual:   ${util.inspect(d.actual)}\n\n`
+        ) +
+        chalk.white(
+          d.stack + '\n\n'
+        )
+      )
     }
   })
 
