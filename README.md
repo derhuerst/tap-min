@@ -6,8 +6,6 @@
 
 [![npm version](https://img.shields.io/npm/v/tap-min.svg)](https://www.npmjs.com/package/tap-min)
 [![build status](https://img.shields.io/travis/derhuerst/tap-min.svg)](https://travis-ci.org/derhuerst/tap-min)
-[![dependency status](https://img.shields.io/david/derhuerst/tap-min.svg)](https://david-dm.org/derhuerst/tap-min)
-[![dev dependency status](https://img.shields.io/david/dev/derhuerst/tap-min.svg)](https://david-dm.org/derhuerst/tap-min#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/tap-min.svg)
 [![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 

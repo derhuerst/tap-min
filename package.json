@@ -24,15 +24,18 @@
     "reporter"
   ],
   "author": "Jannis R <mail@jannisr.de>",
+  "contributors": [
+    "Tim Eulitz <tim.eulitz@wikimedia.de>"
+  ],
   "license": "ISC",
   "bugs": "https://github.com/derhuerst/tap-min/issues",
   "homepage": "https://github.com/derhuerst/tap-min",
   "dependencies": {
-    "readable-stream": "^2.2.2",
+    "chalk": "^2.1.0",
     "duplexer3": "^0.1.4",
-    "hirestime": "^3.1.0",
-    "tap-parser": "^6.0.1",
-    "pretty-ms": "^3.0.0",
-    "chalk": "^2.1.0"
+    "hirestime": "^3.1.1",
+    "pretty-ms": "^3.2.0",
+    "readable-stream": "^2.3.3",
+    "tap-parser": "^6.0.1"
   }
 }
