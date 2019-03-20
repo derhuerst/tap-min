@@ -31,7 +31,7 @@
   "bugs": "https://github.com/derhuerst/tap-min/issues",
   "homepage": "https://github.com/derhuerst/tap-min",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "dependencies": {
     "chalk": "^2.1.0",
