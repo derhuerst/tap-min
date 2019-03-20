@@ -34,8 +34,8 @@
     "chalk": "^2.1.0",
     "duplexer3": "^0.1.4",
     "hirestime": "^3.1.1",
-    "pretty-ms": "^3.2.0",
-    "readable-stream": "^2.3.3",
-    "tap-parser": "^6.0.1"
+    "pretty-ms": "^4.0.0",
+    "readable-stream": "^3.0.6",
+    "tap-parser": "^9.3.1"
   }
 }

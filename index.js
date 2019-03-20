@@ -1,6 +1,6 @@
 'use strict'
 
-const PassThrough = require('readable-stream/passthrough')
+const {PassThrough} = require('readable-stream')
 const duplexer = require('duplexer3')
 const hirestime = require('hirestime')
 const Parser = require('tap-parser')
